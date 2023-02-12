@@ -6,6 +6,7 @@ main h1 {
 
 main p {
 font-family: "Montserrat";
+padding-left: 1.5rem;
 }
 
 @keyframes cube {
@@ -69,4 +70,12 @@ undefined
     left: 32vw;
     top: 62vh;
     border-color: #e1e2e4;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0.625rem;
+  width: 100%;
+  height: 1rem;           
 }
