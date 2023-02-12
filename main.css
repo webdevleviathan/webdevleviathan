@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-main h1 {
-
+@keyframes cube {
+  from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+  }
+  to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+  }
 }
 
 /* Add a black background color to the top navigation */
@@ -37,16 +43,7 @@ font-family: "Montserrat";
 padding-left: 1.5rem;
 }
 
-@keyframes cube {
-    from {
-        transform: scale(0) rotate(0deg) translate(-50%, -50%);
-        opacity: 1;
-    }
-    to {
-        transform: scale(20) rotate(960deg) translate(-50%, -50%);
-        opacity: 0;
-    }
-}
+
 
 .background {
     position: fixed;
@@ -70,8 +67,8 @@ padding-left: 1.5rem;
     border: solid 1px #8b928a;
     color: transparent;
     transform-origin: top left;
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 14s ease-in forwards infinite;
+    transform: scale(0) rotate(90deg) translate(-50%, -50%);
+    animation: cube 14s ease-in-out forwards infinite;
 }
 
 undefined
