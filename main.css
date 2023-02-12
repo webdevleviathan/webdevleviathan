@@ -10,6 +10,12 @@
   }
 }
 
+img {
+  border-radius: 25px;
+  padding: 0.625rem;
+  background-color: #e1e1f7;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -21,7 +27,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.625rem 0.625rem;
     text-decoration: none;
     font-size: 17px;
   }
