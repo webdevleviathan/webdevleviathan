@@ -2,7 +2,7 @@
 - 👀 I’m interested in 3D printing and front-end web development
 - 🌱 I’m currently learning HTML, CSS and JS.
 - 💞️ I’m looking to collaborate on something new
-- 
+
 - 📫 How to reach me? web.dev.leviathan@gmail.com
 
 <!---
